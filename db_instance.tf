@@ -9,7 +9,7 @@ resource "google_sql_database_instance" "instance" {
   deletion_protection  = "false"
 }
 
-resource "google_sql_database_instance" "instance" {
+resource "google_sql_database_instance" "instance1" {
   name             = "mysql-db1"
   region           = "africa-south1"
   database_version = "MYSQL_8_0"
